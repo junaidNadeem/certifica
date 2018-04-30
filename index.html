@@ -25,11 +25,12 @@
 					</ul>
 				</div>
 			</nav>
-			<div class="main-container">
+			<!-- sign up container -->
+			<div class="main-container sign-up-main-content">
 				<div class="col-md-12">
-					<div id="main-content" class="content-container">
+					<div class="content-container main-content">
 						<h1>Your next level is a signup away</h1>
-						<p>Already have an account with us, you may <a href="sign_in.html">Sign In</a></p>
+						<p>Already have an account with us, you may <a href="#" onclick="return false;" id="sign-in">Sign In</a></p>
 					</div>
 				</div>
 				<div class="col-md-12">
@@ -60,6 +61,41 @@
 									</div>
 								</div>
 								<button type="submit" class="primary-button center">Register</button>
+								<div class="login-channels">
+									<p>Login using</p>
+									<a>Google</a>
+									<p>or</p>
+									<a> Facebook</a> 
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Sign in container -->
+			<div class="main-container sign-in-main-content" style="display: none">
+				<div class="col-md-12">
+					<div class="content-container main-content">
+						<h1>Please sign in to continue</h1>
+						<p>Don't an account with us, you may <a href="#" onclick="return false;" id="sign-up">Sign up</a></p>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="laptop-container">
+						<div class="sign-in-content sign-in-form">
+							<h3>Login to <span>Get Started</span></h3>
+							<form>
+								<div class="form">
+									<div class="field">
+										<label>Email Address</label>
+										<input type="email" name="email" placeholder="Email Address">
+									</div>
+									<div class="field">
+										<label>Password</label>
+										<input type="password" name="password" placeholder="Password">
+									</div>
+								</div>
+								<button type="submit" class="primary-button center">Log In</button>
 								<div class="login-channels">
 									<p>Login using</p>
 									<a>Google</a>
